@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+
+# Local configuration and data
+.env
+data/*
+!data/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and tool output
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and operating system
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
